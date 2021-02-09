@@ -35,7 +35,7 @@ const Todo = ({ text, id, remove, update }) => {
         type="text"
         name="text"
         placeholder={text}
-        id={text}
+        id="text"
         onChange={handleChange}
       ></input>
       <button>Accept</button>

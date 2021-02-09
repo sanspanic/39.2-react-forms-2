@@ -5,8 +5,8 @@ import { v4 as uuid } from "uuid";
 
 const TodoList = () => {
   const [todos, setTodos] = useState([
-    { text: "feed cat", id: uuid() },
-    { text: "go out", id: uuid() },
+    /*     { text: "feed cat", id: uuid() },
+    { text: "go out", id: uuid() }, */
   ]);
 
   const addItem = (item) => {
